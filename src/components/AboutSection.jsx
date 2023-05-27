@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutSection = () => {
   return (
-    <section id='about' className="bg-slate-300 hover:bg-slate-200 dark:bg-slate-800
+    <section id='about' className=" mt-24 bg-slate-300 hover:bg-slate-200 dark:bg-slate-800
     dark:hover:bg-slate-700 hover:-translate-y-2 transform transition p-5
     rounded-md">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

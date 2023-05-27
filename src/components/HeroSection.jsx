@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="flex items-center justify-center py-20">
+    <div className=" mt-24 flex items-center justify-center py-20">
       <div className="max-w-3xl">
         <div className="flex items-center justify-between">
           <div className="w-3/4">

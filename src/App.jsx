@@ -11,6 +11,8 @@ import Portfolio from './components/Portofolio'
 import EducSection from './components/EducSection'
 import { MdSunny } from 'react-icons/md'
 import { FaMoon } from 'react-icons/fa'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -60,6 +62,10 @@ function App() {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
 
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <>
       <button
@@ -83,16 +89,34 @@ function App() {
       <div className='font-inter bg-white dark:bg-neutral-900'>
         <NavbarSection isOpen={isOpen} toggleNavbar={toggleNavbar} />
         <div className='max-w-5xl mx-auto w-11/12'>
-          <HeroSection />
-          <AboutSection />
-          <Services />
-          <SertiSection />
-          <TechSection />
-          <Portfolio />
-          <EducSection />
+          <div data-AOS='fade-down' data-AOS-duration='2000'>
+            <HeroSection />
+          </div>
+          <div data-aos='fade-left' data-aos-duration='1500'>
+            <AboutSection />
+          </div>
+          <div data-aos='fade-right' data-aos-duration='1500'>
+            <Services />
+          </div>
+          <div data-aos='zoom-in' data-aos-duration='1500'>
+            <SertiSection />
+          </div>
+          <div data-aos='zoom-out' data-aos-duration='1500'>
+            <TechSection />
+          </div>
+          <div data-aos='flip-up' data-aos-duration='1500'>
+            <Portfolio />
+          </div>
+          <div data-aos='flip-down' data-aos-duration='1500'>
+            <EducSection />
+          </div>
         </div>
-        <ContactSection />
-        <Footer />
+        <div>
+          <ContactSection />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
       <button
         type='button'

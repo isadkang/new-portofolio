@@ -4,7 +4,7 @@ const TechSection = () => {
   const technologies = ['React', 'Tailwind CSS', 'JavaScript', 'HTML', 'CSS'];
 
   return (
-    <section id="tech" className="mb-12 bg-slate-300 dark:bg-slate-800 p-5 rounded-md">
+    <section id="tech" className="mt-20 mb-12 bg-slate-300 dark:bg-slate-800 p-5 rounded-md">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-3xl font-extrabold text-gray-800 dark:text-white text-center mb-8">
           Technologies Used

@@ -67,7 +67,7 @@ const SertiSection = () => {
   };
 
   return (
-    <section id="sertifikat" className="mb-12 bg-slate-300 hover:bg-slate-200 dark:bg-slate-800
+    <section id="sertifikat" className="mt-20 mb-12 bg-slate-300 hover:bg-slate-200 dark:bg-slate-800
     dark:hover:bg-slate-700 hover:-translate-y-2 transform transition p-5
     rounded-md">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
