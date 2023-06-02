@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -11,13 +11,13 @@ const Footer = () => {
           <p className="text-gray-400">irsyadnataprawira15@gmail.com</p>
         </div>
           <div className="flex items-center space-x-4">
-            <a href="#" className="text-white hover:text-sky-500">
+            <a href="https://www.instagram.com/isadsnata_/" target='_blank' className="text-white hover:text-sky-500">
               <FaInstagram className="h-6 w-6" />
             </a>
-            <a href="#" className="text-white hover:text-sky-500">
-              <FaFacebook className="h-6 w-6" />
+            <a href="https://wa.me/+6281287722164" target='_blank' className="text-white hover:text-sky-500">
+              <FaWhatsapp className="h-6 w-6" />
             </a>
-            <a href="#" className="text-white hover:text-sky-500">
+            <a href="https://www.linkedin.com/in/muhammad-irsyad-nataprawira-830b83249/" target='_blank' className="text-white hover:text-sky-500">
               <FaLinkedin className="h-6 w-6" />
             </a>
           </div>
