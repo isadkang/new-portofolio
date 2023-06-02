@@ -18,7 +18,7 @@ const AboutSection = () => {
           <div className="mt-8 md:mt-0 md:w-1/2">
             <img
               className="mx-auto rounded-md h-50 w-50"
-              src="../../public/foto1.jpg"
+              src="/foto1.jpg"
               alt="Your Photo"
             />
           </div>

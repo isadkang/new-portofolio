@@ -6,49 +6,49 @@ const SertiSection = () => {
       title: 'Belajar Bahasa Pemrograman Web',
       organization: 'Dicoding',
       date: '26 November 2022',
-      image: '../../public/sertifikat/s1.png'
+      image: '/sertifikat/s1.png'
     },
     {
       title: 'E-Learning Kesehatan dan Keselamatan Kerja',
       organization: 'International Labour Organization',
       date: '08 November 2022',
-      image: '../../public/sertifikat/s2.png'
+      image: '/sertifikat/s2.png'
     },
     {
       title: 'SQL Introduction',
       organization: 'Sololearn',
       date: '25 Januari 2023',
-      image: '../../public/sertifikat/s3.png'
+      image: '/sertifikat/s3.png'
     },
     {
       title: 'Responsive Web Design',
       organization: 'Sololearn',
       date: '02 Februari 2023',
-      image: '../../public/sertifikat/s4.png'
+      image: '/sertifikat/s4.png'
     },
     {
       title: 'PHP Development',
       organization: 'Sololearn',
       date: '28 Desember 2022',
-      image: '../../public/sertifikat/s5.png'
+      image: '/sertifikat/s5.png'
     },
     {
       title: 'Javascript Introdunction',
       organization: 'Sololearn',
       date: '30 Januari 2023',
-      image: '../../public/sertifikat/s6.png'
+      image: '/sertifikat/s6.png'
     },
     {
       title: 'HTML Introduction',
       organization: 'Sololearn',
       date: '05 Januari 2023',
-      image: '../../public/sertifikat/s7.png'
+      image: '/sertifikat/s7.png'
     },
     {
       title: 'Css Introduction',
       organization: 'Sololearn',
       date: '27 Januari 2023',
-      image: '../../public/sertifikat/s8.png'
+      image: '/sertifikat/s8.png'
     },
     // Tambahkan sertifikat-sertifikat lainnya
   ];

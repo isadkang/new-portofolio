@@ -17,7 +17,7 @@ const NavbarSection = ({ isOpen, toggleNavbar, theme, handleTheme }) => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <a href="#" className="text-white text-2xl font-bold">
-              <img src='../../public/MYLOGO.png' width={80} height={80} alt='logosaya'></img>
+              <img src='/MYLOGO.png' width={80} height={80} alt='logosaya'></img>
             </a>
           </div>
           <div className="flex sm:hidden">

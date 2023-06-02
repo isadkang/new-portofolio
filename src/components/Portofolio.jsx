@@ -5,14 +5,14 @@ const projects = [
   {
     title: 'Dark Mode',
     description: 'Proyek Dark Mode Logic yang menggunakan HTML, CSS & Javascript.',
-    imageUrl: '../../public/projek/dark-mode.png',
+    imageUrl: '/projek/dark-mode.png',
     webUrl: 'https://www.example.com/',
     sourceCodeUrl: 'https://github.com/example/project1',
   },
   {
     title: 'Website Sederhana',
     description: 'Proyek Website Sekolah Sederhana dengan menggunakan HTML & CSS.',
-    imageUrl: '../../public/projek/school-wk.png',
+    imageUrl: '/projek/school-wk.png',
     webUrl: 'https://www.example.com/',
     sourceCodeUrl: 'https://github.com/example/project2',
   },
