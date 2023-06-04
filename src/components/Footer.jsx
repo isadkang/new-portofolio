@@ -22,7 +22,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-gray-400 text-sm mt-4 md:mt-0">
-            © 2023 Your Website. All rights reserved.
+            © 2023 Irsyad Nata. All rights reserved.
           </p>
         </div>
       </div>
