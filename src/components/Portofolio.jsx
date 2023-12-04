@@ -31,10 +31,10 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="projects" className="mt-20 mb-12 bg-slate-300 dark:bg-slate-800 p-5 rounded-md">
+    <section id="projects" className="mt-20 mb-12 bg-slate-300 dark:bg-slate-800 p-5 rounded-md mx-2 lg:mx-16">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-3xl font-extrabold text-gray-800 dark:text-white text-center mb-8">
-          Proyek-proyek
+          Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 dark:bg-slate-800 transform transition">
           {projects.map((project, index) => (

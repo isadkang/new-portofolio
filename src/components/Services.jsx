@@ -5,7 +5,7 @@ import ServiceItem from './ServiceItem';
 
 function Services() {
   return (
-    <div id='skill' className="py-12">
+    <div id='skills' className="py-12 mx-2 lg:mx-16">
         <SectionTitle>Skills</SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {services.map(service => (

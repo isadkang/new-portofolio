@@ -67,9 +67,9 @@ const SertiSection = () => {
   };
 
   return (
-    <section id="sertifikat" className="mt-20 mb-12 bg-slate-300 hover:bg-slate-200 dark:bg-slate-800
-    dark:hover:bg-slate-700 hover:-translate-y-2 transform transition p-5
-    rounded-md">
+    <section id="sertifikat" className="mt-20 mb-12 bg-slate-300  dark:bg-slate-800
+      transform transition p-5
+    rounded-md mx-2 lg:mx-16">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-3xl font-extrabold text-gray-800 dark:text-white text-center mb-8">
           Certificates
@@ -78,7 +78,7 @@ const SertiSection = () => {
           {currentCertificates.map((certificate, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md"
+              className="bg-white dark:bg-gray-800 dark:hover:bg-gray-900 transition-all duration-300  p-6 rounded-lg shadow-md"
             >
               <div className="mb-4">
                 <img
@@ -102,11 +102,10 @@ const SertiSection = () => {
             <button
               key={index}
               onClick={() => handlePageChange(index + 1)}
-              className={`mx-1 px-3 py-1 rounded-md ${
-                currentPage === index + 1
+              className={`mx-1 px-3 py-1 rounded-md ${currentPage === index + 1
                   ? 'bg-gray-800 text-white'
                   : 'bg-gray-300 text-gray-800'
-              }`}
+                }`}
             >
               {index + 1}
             </button>
